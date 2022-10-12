@@ -58,3 +58,6 @@ http://localhost:3000/
 
 ### Kibana Spring Boot
 ![kibana_springboot](https://github.com/weder96/SpringBootActuatorPrometheus/blob/main/documentation/kibana_springboot.png)
+
+### Postman
+![Postman File](https://github.com/weder96/SpringBootActuatorPrometheus/blob/main/documentation/postmanFile.png.png)
