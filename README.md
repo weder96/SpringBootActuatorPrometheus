@@ -44,6 +44,17 @@ https://micrometer.io/docs/registry/prometheus
 
 http://localhost:9090/
 
+![prometheus](https://github.com/weder96/SpringBootActuatorPrometheus/blob/main/documentation/prometheus.png)
+
 
 ### Acessar Kibana
 http://localhost:3000/
+
+### Kibana Micrometer
+![kibana_micrometer](https://github.com/weder96/SpringBootActuatorPrometheus/blob/main/documentation/kibana_micrometer.png)
+
+### Kibana Resilience4j
+![kibana_resilience4j](https://github.com/weder96/SpringBootActuatorPrometheus/blob/main/documentation/kibana_resilience4j.png)
+
+### Kibana Spring Boot
+![kibana_springboot](https://github.com/weder96/SpringBootActuatorPrometheus/blob/main/documentation/kibana_springboot.png)
