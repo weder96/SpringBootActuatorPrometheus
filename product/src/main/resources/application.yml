@@ -1,0 +1,33 @@
+resilience4j.circuitbreaker:
+  instances:
+    avaliacaoCB:
+      minimumNumberOfCalls: 4
+      slidingWindowSize: 8
+
+
+management:
+  server:
+    port: 9000
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health, metrics, mappings, info, shutdown, prometheus
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+      show-components: always
+      probes:
+        enabled: true
+    metrics:
+      enabled: true
+    info:
+      enabled: true
+    mappings:
+      enabled: true
+    shutdown:
+      enabled: true
+    prometheus:
+      enabled: true
+
